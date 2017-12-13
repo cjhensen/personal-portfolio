@@ -1,0 +1,30 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Christian Hensen's Personal Portfolio",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjhensen/personal-portfolio.git"
+  },
+  "author": "Christian Hensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjhensen/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/cjhensen/personal-portfolio#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2"
+  }
+}

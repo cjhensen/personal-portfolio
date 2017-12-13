@@ -1,0 +1,50 @@
+// header, full width background color
+header {
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+
+// centered inside header
+nav {
+  position: relative;
+
+  ul {
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 4px;
+
+      a {
+        .base-font(@weight: 300);
+        color: @base-blue;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  .base-font(@size: 24px);
+  color: @base-blue;
+  text-decoration: none;
+  padding: 8px 0;
+  display: inline-block;
+
+  span {
+    font-weight: 500;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
